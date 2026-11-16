@@ -13,8 +13,11 @@ venv/
 ENV/
 .venv/
 
-# LaTeX auxiliary files (keep final figures and source)
-report/*.aux
+# LaTeX reports and documents
+report/
+*.tex
+*.bib
+*.aux
 report/*.bbl
 report/*.blg
 report/*.log
